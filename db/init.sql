@@ -1,5 +1,7 @@
 --structure of the database
 
+-- init.sql is Making the database. 
+
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
     email VARCHAR(200),
